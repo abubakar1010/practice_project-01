@@ -237,6 +237,10 @@ font-weight: 700;
     border-bottom: 2px solid var(--border-background) ;
 }
 
+.uncommon-border{
+  border: none !important;
+}
+
 .resume-title{
     color: var(--secondary-text-color);
 font-size: 25px;
