@@ -1,0 +1,131 @@
+/* here is universal styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* here is css variable */
+
+:root{
+    --primary-button-color: #FD6E0A;
+    --primary-text-color: #181818;
+    --secondary-text-color: #474747;
+    --description-text-color: #757575;
+    --background-color: #FFF;
+    --header-background: #FFF8F3;
+
+}
+
+/* here is common shared styles */
+.primary-button{
+    border-radius: 5px;
+    background-color: var(--primary-button-color);
+    border: none;
+    padding: 20px 35px;
+    color: var(--background-color);
+}
+
+/* here is header styles */
+header{
+    background-color: var(--header-background);
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom,left center;
+}
+
+
+
+/* here is navigation styles*/
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 55px 200px;
+
+}
+
+.right ul{
+    display: flex;
+    align-items: center;
+}
+
+.right ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.intro{
+    color: var(--primary-text-color);
+font-size: 45px;
+font-weight: 800;
+}
+.uncommon-letter{
+    color: var(--primary-button-color);
+font-size: 45px;
+font-weight: 800;
+
+}
+
+/* here is header description style */
+
+.greeting{
+    color: var(--secondary-text-color);
+font-size: 45px;
+font-weight: 600;
+margin-top: 125px;
+margin-bottom: 5px;
+}
+.head-section-intro{
+    color: var(--primary-text-color);
+font-size: 55px;
+font-weight: 700;
+margin-bottom: 20px;
+
+}
+
+
+.head-section-description{
+    color: var(--description-text-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom: 30px;
+}
+
+.contact-button{
+    color: var(--primary-button-color);
+text-align: center;
+font-weight: 700;
+border: 1px solid var(--primary-button-color);
+border-radius: 5px;
+    padding: 20px 35px;
+    background-color: var(--background-color);
+}
+.icon-image{
+    margin-right: 5px;
+}
+.img-description{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.head-description{
+    margin: 55px 200px;
+}
+
+.head-section-img{
+    position: relative;
+    top: 5px;
+    right: 20px;
+}
+
+/* here is finished header section styles and start another */
+
+/* here is about section styles */
+
+main{
+    margin-top: 50px;
+}
