@@ -113,7 +113,7 @@ nav {
   border: 1px solid var(--primary-button-color);
   border-radius: 5px;
   padding: 20px 35px;
-  background-color: var(--background-color);
+  background-color: var(--header-background);
 }
 
 .img-description {
